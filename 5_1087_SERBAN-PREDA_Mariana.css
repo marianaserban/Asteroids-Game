@@ -1,0 +1,11 @@
+﻿canvas {
+    border: 2px solid gray;
+    /*pozitionam canvas-ul la jumatatea ferestrei */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px; /* jumătate din lățimea canvas-ului */
+    margin-top: -300px; /* jumătate din înălțimea canvas-ului */
+
+    background-color:black;
+}
