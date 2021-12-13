@@ -1,4 +1,7 @@
-﻿canvas {
+﻿body{
+    background-color:gray;
+}
+canvas {
     border: 2px solid gray;
     /*pozitionam canvas-ul la jumatatea ferestrei */
     position: absolute;
@@ -8,4 +11,16 @@
     margin-top: -300px; /* jumătate din înălțimea canvas-ului */
 
     background-color:black;
+}
+
+#btnStart{
+    border: 2px solid gray;
+    border-radius:2px;
+    background-color:lightblue;
+}
+
+#nume {
+    border: 2px solid gray;
+    border-radius: 2px;
+    background-color:lightblue;
 }
